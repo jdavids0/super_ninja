@@ -24,9 +24,9 @@ ninja1.drinkSake();
 ninja1.showStats(); */
 
 class Sensei extends Ninja{
-    constructor(name){
+    constructor(name, wisdom = 10){
         super(name, 200, 10, 10);
-        this.wisdom = 10;
+        this.wisdom = wisdom;
     }
     speakWisdom(){
         super.drinkSake();
